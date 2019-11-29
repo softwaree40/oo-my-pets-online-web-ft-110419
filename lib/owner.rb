@@ -19,12 +19,16 @@ class Owner
      end
      def self.count
        @@all.size 
+<<<<<<< HEAD
         
+=======
+>>>>>>> ce8cf6b1bc06439e9a21009b7324c34274a8d1cf
      end
      def self.reset_all
        @@all.clear
      end
      def cats
+<<<<<<< HEAD
         Cat.all.select { |cat| cat.owner == self } 
      end
      def dogs 
@@ -56,4 +60,8 @@ class Owner
     "I have #{self.dogs.length} dog(s), and #{self.cats.length} cat(s)."
   end
      
+=======
+       
+     end
+>>>>>>> ce8cf6b1bc06439e9a21009b7324c34274a8d1cf
 end
